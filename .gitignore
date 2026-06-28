@@ -1,0 +1,9 @@
+# Terraform : état (peut contenir des secrets) et fichiers locaux
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# Variables sensibles éventuelles
+*.tfvars
+secrets.*
